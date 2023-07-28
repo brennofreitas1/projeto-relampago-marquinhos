@@ -8,7 +8,7 @@
 
 #title {
     color: #D96459;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     margin: 70px auto auto 70px;
 }
 
@@ -26,7 +26,7 @@
 .contactButton {
     background: white;
     color: #D96459;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     padding: 0.45em;
     padding-left: 1.0em;
     font-size: 17px;
@@ -42,7 +42,7 @@
     height: 2.8em;
     padding-right: 3em;
     margin: 70px;
-  }
+}
   
   .iconButton {
     margin-left: 1em;
@@ -56,14 +56,21 @@
     box-shadow: 0.1em 0.1em 0.6em 0.2em #D96459;
     right: 0.3em;
     transition: all 0.3s;
-  }
+}
   
   .contactButton:hover {
     transform: translate(-0.05em, -0.05em);
     box-shadow: 0.15em 0.15em #D96459;
-  }
+}
   
   .contactButton:active {
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em #D96459;
-  }
+}
+
+#back {
+  font-family: cursive;
+  color: #D96459;
+  margin: 0 0 0 70px;
+  text-decoration: none;
+}
